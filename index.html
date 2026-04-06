@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Финальная распродажа этого лета — Email письмо</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Обертка письма (БЭМ: email-wrapper) -->
+    <div class="email-wrapper">
+        <!-- Контейнер письма (БЭМ: email-container) -->
+        <main class="email-container">
+            
+            <!-- Баннер с фоновой графикой (БЭМ: banner) -->
+            <header class="banner" style="background-image: url('images/копия.png');">
+                
+                <!-- Логотипы (БЭМ: logo) -->
+                <div class="logo__row">
+                    <img src="images/лого1.svg" alt="Spim" class="logo logo--spim" width="78" height="42">
+                    <img src="images/Vector (5).svg" alt="Партнерский логотип" class="logo logo--partner" width="91" height="20">
+                </div>
+
+                <!-- Главный заголовок (БЭМ: headline) -->
+                <h1 class="headline">ФИНАЛЬНАЯ РАСПРОДАЖА ЭТОГО ЛЕТА!</h1>
+                
+                <!-- Графика скидки с оберткой (БЭМ: discount-image) -->
+                <div class="discount-image__wrapper">
+                    <img src="images/скидка.svg" alt="Скидка 10%, 8%, 5% в зависимости от времени" class="discount-image" width="327" height="125">
+                </div>
+
+                <!-- Блок промокода (БЭМ: promo) -->
+                <div class="promo">
+                    <div class="promo__label">Промокод</div>
+                    <div class="promo__code">GOODBYELETO</div>
+                </div>
+
+                <!-- Кнопка "Получить скидку" (БЭМ: button) -->
+                <a href="#" class="button">Получить скидку</a>
+            </header>
+
+            <!-- Основной контент (БЭМ: content) -->
+            <div class="content">
+                
+                <!-- Вступительный текст (БЭМ: intro) -->
+                <div class="intro">
+                    <p>Здравствуйте!</p>
+                    <p>Теперь, когда вы готовы к школе и обновили спальни своих малышей, пришла пора подумать о себе.
+                    Возможно, настало время поменять подушку или вы давно собирались купить <a href="#" class="intro__link">шерстяное одеяло</a> на тот период,
+                    когда по ночам уже холодает, а отопление ещё не включили.
+                    В конце концов, порадуйте себя новым комплектом <a href="https://spim.ru" class="intro__link">мягкого постельного белья</a>
+                    или красивым <a href="#" class="intro__link">уютным пледом</a>! Но торопитесь, <strong>скидка 10%</strong> на все эти радости будет действовать только <strong>до 13:00</strong>.</p>
+                </div>
+
+                <!-- Секция товаров (БЭМ: products) -->
+                <section class="products" aria-label="Категории товаров">
+                    
+                    <!-- Первый ряд товаров -->
+                    <div class="products__row">
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/подушка.png');" role="img" aria-label="Подушки"></div>
+                            <a href="#" class="product-card__title">Подушки</a>
+                        </article>
+                        
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/полотенце.png');" role="img" aria-label="Одеяла"></div>
+                            <a href="#" class="product-card__title">Одеяла</a>
+                        </article>
+                        
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/кроватьМягко.png');" role="img" aria-label="Постельное бельё"></div>
+                            <a href="#" class="product-card__title">Постельное бельё</a>
+                        </article>
+                    </div>
+                    
+                    <!-- Второй ряд товаров -->
+                    <div class="products__row">
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/ФотоОдеяло.png');" role="img" aria-label="Пледы и покрывала"></div>
+                            <a href="#" class="product-card__title">Пледы и покрывала</a>
+                        </article>
+                        
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/ЕщеПолотенца.png');" role="img" aria-label="Ванная"></div>
+                            <a href="#" class="product-card__title">Ванная</a>
+                        </article>
+                        
+                        <article class="product-card">
+                            <div class="product-card__image" style="background-image: url('images/ткани.png');" role="img" aria-label="Кухня"></div>
+                            <a href="#" class="product-card__title">Кухня</a>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Кнопка "В магазин" (БЭМ: button--center) -->
+                <div class="button--center">
+                    <a href="#" class="button">В магазин</a>
+                </div>
+
+                <!-- Условия акции (БЭМ: conditions) -->
+                <div class="conditions">
+                    <p>Промокод действует на все товары, кроме разделов «Кровати» и «Матрасы». Скидка не суммируется со скидками на сайте,
+                    скидками и подарками по другим промокодам и дисконтным картам. Размер скидки зависит от времени оформления заказа.</p>
+                </div>
+            </div>
+
+            <!-- Подвал (БЭМ: footer) -->
+            <footer class="footer">
+                
+                <!-- Контакты: соцсети + телефон -->
+                <div class="footer-contacts">
+                    
+                    <!-- Социальные сети (БЭМ: social) -->
+                    <div class="social">
+                        <a href="#" class="social__link" aria-label="VK">
+                            <img src="images/Vector (4).svg" alt="VK" width="24" height="24">
+                        </a>
+                        <a href="#" class="social__link" aria-label="Facebook">
+                            <img src="images/Vector (3).svg" alt="Facebook" width="24" height="24">
+                        </a>
+                        <a href="#" class="social__link" aria-label="Twitter">
+                            <img src="images/Vector (2).svg" alt="Twitter" width="24" height="24">
+                        </a>
+                        <a href="#" class="social__link" aria-label="Instagram">
+                            <img src="images/Vector (1).svg" alt="Instagram" width="24" height="24">
+                        </a>
+                        <a href="#" class="social__link" aria-label="YouTube">
+                            <img src="images/Vector6.svg" alt="YouTube" width="24" height="24">
+                        </a>
+                        <a href="#" class="social__link" aria-label="Odnoklassniki">
+                            <img src="images/Vector.svg" alt="OK" width="24" height="24">
+                        </a>
+                    </div>
+                    
+                    <!-- Телефон -->
+                    <a href="tel:88005556055" class="phone">8 800 555 60 55</a>
+                </div>
+
+                <!-- Примечание о письме -->
+                <div class="footer-note">
+                    <p>Данное письмо было отправлено на haifzova.i@gmail.com. Пожалуйста, добавьте mailer@spim.ru в вашу адресную книгу,
+                    чтобы наши письма не попадали в спам.</p>
+                </div>
+
+                <!-- Ссылки: Отписаться и Веб-версия -->
+                <div class="footer-links">
+                    <a href="#" class="footer-link">
+                        <img class="footer-link__icon" src="images/Union.svg" alt="Отписаться">
+                        Отписаться
+                    </a>
+                    <a href="#" class="footer-link">
+                        <img class="footer-link__icon" src="images/Shape.svg" alt="Веб-версия">
+                        Веб-версия
+                    </a>
+                </div>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
