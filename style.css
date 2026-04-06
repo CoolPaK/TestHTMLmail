@@ -51,14 +51,14 @@ body {
 /* Адаптив для баннера */
 @media (max-width: 600px) {
     .banner {
-        padding: 15px 30px 40px;
+        padding: 15px 30px 100px;
         min-height: auto;
     }
 }
 
 @media (max-width: 480px) {
     .banner {
-        padding: 15px 20px 30px;
+        padding: 15px 20px 100px;
     }
 }
 
